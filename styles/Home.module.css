@@ -1,0 +1,23 @@
+.landing {
+  background-color: #874C62;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: flex;
+  -webkit-align-items: center;
+  -moz-box-align: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -moz-box-pack: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+}
+
+.start {
+  color:#F2D38B;
+  padding-top:1rem;
+  font-size: 1.5rem;
+}

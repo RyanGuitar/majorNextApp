@@ -1,0 +1,70 @@
+/*#AppContainer {
+    background-color: #874C62;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    width:100vw;
+    height:100vh;
+  }
+  #AppContent, #popup {
+    text-align: justify;
+    width:90vw;
+  }
+  #popup {
+    display:block;
+    margin:auto;
+    width:60vw;
+  }
+  #heading {
+    color:white;
+    font-size:2rem;
+    padding-bottom:1rem;
+  }
+  p {
+    color:#F2D38B;
+    padding-top: 0.5rem;
+    padding-bottom:0.5rem;
+    font-size: 1rem;
+  }
+  #back, #next {
+    color:white;
+    padding-top:1rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  #navBox {
+    display: flex;
+    flex-flow: row nowrap;
+    place-content: flex-end space-between;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    flex-direction: row;
+  }
+  
+  
+  table, th, td {
+    background-color:white;
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  th, td {
+    font-size: 1.2rem;
+    padding:10px 0;
+  }
+  b {
+    font-size: 1.3rem;
+  }
+  #hint, .number {
+    text-align: center;
+    border:2px solid #F2D38B;
+    background-color: #874C62;
+    color:white;
+  }*/
+  
+  /*@media screen and (orientation:landscape){
+    #AppContent {
+      width:50vw;
+    }
+  }*/
