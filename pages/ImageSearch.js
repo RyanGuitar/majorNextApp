@@ -2,9 +2,6 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import Head from "next/head";
 import Image from "next/image";
-import styles from "../styles/ImageSearch.module.css";
-
-//const { useState, useEffect } = React
 
 const ImageSearch = (props) => {
   let buttons = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
@@ -22,37 +19,34 @@ const ImageSearch = (props) => {
     ["10", "dice"],
     ["11", "tot"],
     ["12", "tin"],
-    ['13','time'],
-    ['14', 'tyre'],
-    ['15', 'doll'],
-    ['16','dish'],
-    ['17', 'dog'],
-    ['18','dive'],
-    ['19','tub'],
-    ['20','noose'],
-    ['21','net'],
-    ['22','nun'],
-    ['23','nam'],
-    ['24','nerd'],
-    ['25','nail'],
-    ['26','nosh'],
-    ['27','nick'],
-    ['28','knife'],
-    ['29', 'nob'],
-    ['30','moose'],
-    ['31','mat'],
-    ['32','moon'],
-    ['33','mummy'],
-    ['34','mower'],
+    ["13", "time"],
+    ["14", "tyre"],
+    ["15", "doll"],
+    ["16", "dish"],
+    ["17", "dog"],
+    ["18", "dive"],
+    ["19", "tub"],
+    ["20", "noose"],
+    ["21", "net"],
+    ["22", "nun"],
+    ["23", "nam"],
+    ["24", "nerd"],
+    ["25", "nail"],
+    ["26", "nosh"],
+    ["27", "nick"],
+    ["28", "knife"],
+    ["29", "nob"],
+    ["30", "moose"],
+    ["31", "mat"],
+    ["32", "moon"],
+    ["33", "mummy"],
+    ["34", "mower"],
   ];
 
   let copyNumbers = [...numbers];
-  //const [text, setText] = useState('');
   const [search, setSearch] = useState([...copyNumbers]);
   const [input, setInput] = useState("");
-  //  const [add, setAdd] = useState()
-  //  let numbers = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
-  //   let copyNumbers = [...numbers]
+
   useEffect(() => {
     if (input.length < 3) {
       setSearch(numbers.filter((number) => number[0].includes(input)));
@@ -67,8 +61,6 @@ const ImageSearch = (props) => {
     } else {
       setInput("");
     }
-    // setText(e.target.value)
-    //copyNumbers = numbers.filter(number => number == e.target.value)
   };
 
   return (
@@ -114,15 +106,5 @@ const ImageSearch = (props) => {
     </div>
   );
 };
-
-//const rootElement = document.getElementById('root')
-//ReactDOM.render(<App />, rootElement)
-
-/*
- {search.map(number => {
-          return  <p key={number}>{number}</p>
-        })}
-*/
-/*                                                                           */
 
 export default ImageSearch;

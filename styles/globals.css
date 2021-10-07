@@ -218,12 +218,16 @@ td {
   bottom:0;
 }
 #GameButtonBox button {
-  background-color: #C98474;
+  background-color: #874C62;
+  color:white;
   border:1px solid #F2D38B;
   color:white;
   width:20vw;
   padding:0.6rem;
   font-size: 1.5rem;
+}
+#GameButtonBox button:hover {
+  background-color: #C98474; 
 }
 #GameButtonBox #GameNext {
   position:fixed;
@@ -238,6 +242,7 @@ td {
   height:60vh;
 }
 #GameImageBox {
+  overflow:hidden;
   aspect-ratio:1/1;
   width:20vw;
   height:auto;
