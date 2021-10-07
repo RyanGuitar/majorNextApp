@@ -186,3 +186,91 @@ td {
   top:0;
   left:0;
 }
+#GameContainer {
+  background-color: #C98474;
+  display:flex;
+  align-items: center;
+  width:100vw;
+  height:100vh;
+}
+#GameHeader {
+  background-color: #874C62;
+  color:white;
+  position:fixed;
+  top:0;
+  left:0;
+  text-align: center;
+  width:100vw;
+  height:auto;
+  padding:0.5rem;
+  font-size: 2rem;
+}
+#GameX {
+  position:fixed;
+  right:1rem;
+}
+#GameButtonBox {
+  background-color: #874C62;
+  position:fixed;
+  width:100vw;
+  height:auto;
+  left:0;
+  bottom:0;
+}
+#GameButtonBox button {
+  background-color: #C98474;
+  border:1px solid #F2D38B;
+  color:white;
+  width:20vw;
+  padding:0.6rem;
+  font-size: 1.5rem;
+}
+#GameButtonBox #GameNext {
+  position:fixed;
+  right:0;
+  bottom:0;
+}
+#GameImages {
+  display:flex;
+  align-items: center;
+  flex-direction: row;
+  width:100vw;
+  height:60vh;
+}
+#GameImageBox {
+  aspect-ratio:1/1;
+  width:20vw;
+  height:auto;
+}
+#GameImageBox img {
+  aspect-ratio: 1/1;
+  width:100%;
+  height:auto;
+}
+.fade {
+  opacity:0;
+}
+#GameMessage {
+  position:fixed;
+  top:0;
+  left:0;
+  z-index:100;
+  background-color: transparent;
+  align-items: center;
+  justify-content: center;
+  width:100vw;
+  height:100vh;
+}
+#GameMessage div {
+  box-shadow: 3px 3px 7px #C98474;
+  background-color: #874C62;
+  padding:1rem;
+  color:#F2D38B;
+  font-size: 3rem;
+}
+.hide {
+  display:none;
+}
+.flexing {
+  display:flex;
+}
