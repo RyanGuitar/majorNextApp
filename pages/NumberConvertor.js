@@ -78,7 +78,13 @@ const NumberConvertor = () => {
           <div id="TransformBoxImage">
             {transformed.map((transform, index) => {
               return (
-                <img key={index} src={"images/" + transform[1] + ".webp"} />
+                <Image
+                  src={"/images/" + transform[1] + ".webp"}
+                  key={index}
+                  alt={transform[1]}
+                  width={200}
+                  height={200}
+                />
               );
             })}
           </div>
