@@ -336,8 +336,6 @@ td {
 #TransformBoxImage img {
   padding:0.5rem;
   aspect-ratio: 1/1;
-  width:20%;
-  height:auto;
 }
 #TransformBoxNumber {
   
