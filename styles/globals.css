@@ -279,3 +279,82 @@ td {
 .flexing {
   display:flex;
 }
+#NumberTransformerContainer {
+  background-color: #47D2C8;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width:100vw;
+  height:100vh;
+}
+#TransformerHeaderBox {
+  background-color: #874C62;
+  color:#F2D38B;
+  text-align: center;
+  font-size: 2rem;
+  position:fixed;
+  top:0;
+  left:0;
+  width:100vw;
+  height:auto;
+  padding:0.5rem;
+}
+#TransformerHeaderBox #TransformX {
+  position:fixed;
+  right:0.5rem;
+}
+#TransformButtonBox {
+  position:fixed;
+  left:0;
+  bottom:0;
+  width:100vw;
+  height:auto;
+}
+#TransformButtonBox button {
+  background-color: #874C62;
+  color:white;
+  border:1px solid #F2D38B;
+  width:10vw;
+  height:auto;
+  font-size: 1.5rem;
+  padding:0.5rem;
+}
+#TransformButtonBox button:hover {
+  background-color: #C98474;
+}
+#TransformBox {
+  width:100vw;
+  height:70vh;
+}
+#TransformBoxImage {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  width:100vw;
+  height:50vh;
+}
+#TransformBoxImage img {
+  padding:0.5rem;
+  aspect-ratio: 1/1;
+  width:20%;
+  height:auto;
+}
+#TransformBoxNumber {
+  
+  width:100vw;
+  height:20vh;
+  font-size: 2rem;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+#TransformNumber {
+  background-color: #F2D38B;
+  color: #874C62;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  padding:0.7rem;
+  width:50vw;
+  height:3rem;
+}
